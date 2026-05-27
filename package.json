@@ -1,0 +1,22 @@
+{
+  "name": "dev-video-automation",
+  "version": "1.0.0",
+  "description": "Standalone multi-project video production pipeline.",
+  "main": "index.js",
+  "scripts": {
+    "generate-audio": "node generate_audio.js",
+    "record": "node record.js",
+    "merge": "node merge_video_audio.js",
+    "build-video": "node generate_audio.js && node record.js && node merge_video_audio.js",
+    "start-backend": "./start-backend.sh",
+    "stop-backend": "./stop-backend.sh",
+    "setup-tools": "./setup-tools.sh"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "gtts": "^0.2.1",
+    "playwright": "^1.59.1"
+  }
+}

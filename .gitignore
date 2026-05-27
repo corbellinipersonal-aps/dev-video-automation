@@ -1,0 +1,10 @@
+node_modules/
+videos/
+.env
+projects/
+tools/
+backend-workdir/
+local_jdk/
+local_maven/
+local_m2/
+*.log
