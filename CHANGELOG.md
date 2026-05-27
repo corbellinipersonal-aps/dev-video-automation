@@ -19,3 +19,6 @@ All notable changes to this project will be documented in this file.
 
 ### Verified
 - **2026-05-27 17:20:** Completed end-to-end testing of the full video pipeline against the isolated `logistics-ai-bridge` project.
+
+### Deployed
+- **2026-05-27 17:34:** Initialized git repository and pushed the newly refactored standalone architecture to the remote GitHub repository (`corbellinipersonal-aps/dev-video-automation`).
